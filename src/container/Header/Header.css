@@ -1,0 +1,36 @@
+.app__header {
+  background-color: var(--color-black);
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 7.2rem;
+  font-size: 5.6rem;
+}
+
+.app__header-img img {
+  width: 80%;
+}
+
+.app__header-button {
+  padding: 1.2rem 1.8rem;
+  color: var(--color-black);
+  background-color: var(--color-golden);
+  font-size: 1.2rem;
+  border: 1px solid var(--color-golden);
+  transition: 0.4s ease;
+}
+
+.app__header-button:hover {
+  background-color: transparent;
+  color: var(--color-golden);
+}
+
+@media screen and (max-width: 680px) {
+  .app__header-h1 {
+    font-size: 4rem;
+  }
+}/*# sourceMappingURL=Header.css.map */
