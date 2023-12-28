@@ -21,15 +21,15 @@ const Laurels = () => (
     
     <div className='app__wrapper_info'>
       <SubHeading title="Prêmios & Reconhecimento" />
-      <h1 className='headtext__cormorant' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Nossas Premiações</h1>
+      <h1 className='headtext__cormorant' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">Nossas Premiações</h1>
 
-      <div className='app__laurels_awards' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+      <div className='app__laurels_awards' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
         {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
       </div>
 
     </div>
 
-    <div className='app__wrapper_img' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+    <div className='app__wrapper_img' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <img src={images.laurels} alt="" />
     </div>
 

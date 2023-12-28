@@ -8,11 +8,11 @@ import './Chef.css';
 const Chef = () => (
   <div className='app__bg app__wrapper section__padding'>
 
-    <div className='app__wrapper_img app__wrapper_img-reverse' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+    <div className='app__wrapper_img app__wrapper_img-reverse' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
       <img src={images.chef} alt="chef img" />
     </div>
 
-    <div className='app__wrapper_info' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+    <div className='app__wrapper_info' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <SubHeading title="Palavras do Chefe!"/>
       <h1 className='headtext__cormorant'>No que acreditamos</h1>
 
