@@ -10,7 +10,7 @@ const Footer = () => (
     <FooterOverlay />
     <Newsletter />
 
-    <div className="app__footer-links">
+    <div className="app__footer-links" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contato</h1>
         <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
@@ -18,7 +18,7 @@ const Footer = () => (
         <p className="p__opensans">+1 212-555-1230</p>
       </div>
 
-      <div className="app__footer-links_logo">
+      <div className="app__footer-links_logo" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
         <img src={images.gericht} alt="footer_logo" />
         <p className="p__opensans">&quot;A melhor maneira de nos encontrarmos é perdermo-nos ao serviço dos outros.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
@@ -29,7 +29,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="app__footer-links_work">
+      <div className="app__footer-links_work" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
         <h1 className="app__footer-headtext">Horário de Funcionamento</h1>
         <p className="p__opensans">Segunda - Sexta:</p>
         <p className="p__opensans">10h - 22h</p>

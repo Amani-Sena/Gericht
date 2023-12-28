@@ -6,7 +6,7 @@ import {SubHeading} from "../../components"
 const FindUs = () => (
   <div className='app__bg app__wrapper section__padding' id='contact'>
 
-    <div className='app__wrapper_info'>
+    <div className='app__wrapper_info' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <SubHeading title="Contato" />
       <h1 className='headtext__cormorant' style={{marginBottom: '1rem'}}>Nos Encontre</h1>
       <div className='app__wrapper-content'>
@@ -18,7 +18,7 @@ const FindUs = () => (
       </div>
     </div>
 
-    <div className='app__wrapper_img'>
+    <div className='app__wrapper_img' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <img src={images.findus} alt="Find Us" />
     </div>
 

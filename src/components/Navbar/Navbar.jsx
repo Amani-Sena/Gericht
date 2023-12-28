@@ -13,17 +13,17 @@ const Navbar = () => {
 
   return(
   <nav className='app__navbar'>
-    <div className='app__navbar-logo'>
+    <div className='app__navbar-logo' data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
       <img src={images.gericht} alt='Gericht Logo'/>
     </div>
-    <ul className='app__navbar-links'>
+    <ul className='app__navbar-links' data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
       <li className='p__opensans'><a href="#home">Início</a></li>
       <li className='p__opensans'><a href="#about">Sobre</a></li>
       <li className='p__opensans'><a href="#menu">Cardápio</a></li>
       <li className='p__opensans'><a href="#awards">Premiações</a></li>
       <li className='p__opensans'><a href="#contact">Contato</a></li>
     </ul>
-    <div className='app__navbar-book'>
+    <div className='app__navbar-book' data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
       <button className='custom__button'>Reservar</button>
     </div>
     <div className='app__navbar-smallscreen'>
